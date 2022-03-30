@@ -1,0 +1,48 @@
+.tablero{
+    display: flex;
+    flex-direction: column;
+    border-width:8px;
+    border-style: solid;
+    border-color: #804000;
+    margin: auto; 
+    width: 400px; height: 400px; 
+ }
+ .blancas{
+     width: 50px;
+     height:50px;
+     background-color: white;
+     float:left;
+     text-align: center;
+     
+ }
+ .negras{
+     width: 50px;
+     height:50px;
+     background-color:black;
+     float:left;
+     text-align: center;
+ }
+     .fichasBlancas{
+         
+         border-radius: 100%;
+         border: 2px solid gold; 
+         background-color:white;
+        margin-top: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-weight:900
+        
+     }
+     .fichasNegras{
+        color:white;
+         border-radius: 100%;
+         border: 2px solid silver; 
+        margin-top: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-weight:900;
+        background-color: black;
+       
+     }
+
+ 
